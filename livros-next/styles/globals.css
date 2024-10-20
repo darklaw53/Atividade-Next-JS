@@ -1,0 +1,57 @@
+h1 {
+    text-align: left; 
+    margin-top: 50px;
+    font-size: 3rem; 
+}
+
+main {
+    margin-left: 200px;  
+    margin-right: 200px; 
+}
+
+.navbar {
+    background-color: black; 
+    color: white;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.navbar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.content-container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+form div {
+    margin-bottom: 1rem; 
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem; 
+}
+
+input, textarea, select {
+    width: 100%; 
+    padding: 0.5rem; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #007BFF; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
